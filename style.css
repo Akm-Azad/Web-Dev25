@@ -6,9 +6,10 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 header{
-background-image: url(images/banner/banner2.png);
-background-repeat: no-repeat;
-height: 809px;
+    background-image: url(images/banner/banner2.png);
+    background-repeat: no-repeat;
+    height: 809px;
+
 }
 .header-container{
     width: 525px;
@@ -50,3 +51,109 @@ height: 809px;
     font-weight: 600;
     border: 0;
  }
+ .intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 140px;
+    margin-left: 228px;
+    
+     
+ }
+ .intro-title{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+    margin-bottom: 28px;
+ }
+ .intro-content{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    width: 416px;
+ }
+ .intro  li{
+   list-style: none;
+   color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ intro img{
+    width: 451px;
+    height: 898px;
+ }
+ .intro-container{
+    padding-right: 120px;
+ }
+ .plan-header{
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+ }
+ .plan-section{
+    margin:184px 180px ;
+ }
+ .plan-section  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     
+ }
+ .plan-list{
+    display: flex;
+    justify-content: space-around;
+ }
+ .plan-logo{
+    width: 92.958px;
+    height: 92.958px;
+    
+ }
+  .plan-title{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .plan-content{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  #watch {
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) ), url(images/watch.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 64px;
+    padding-top: 60px;
+  }
+  .watch-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+  }
+  .call-btn{
+    border-radius: 5px;
+    background: #FFF;
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+  }
